@@ -1,3 +1,28 @@
+body.lights-out {
+  background: black;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #555;
+}
+
+.theatre-pad {
+  padding: 0 16%;
+}
+
+.theatre-pad-2 {
+  padding: 0 12%;
+}
+
+.video-caption-left {
+  width: 50%;
+  float: left;
+}
+.video-caption-right {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
+
 header {
   position: fixed;
   width: 100%;
@@ -63,6 +88,11 @@ footer {
   width: 960px;
   margin: 0 auto;
 }
+.wrap-fluid {
+  width: 80%;
+  margin: 0 auto;
+}
+
 
 .label {
   position: relative;

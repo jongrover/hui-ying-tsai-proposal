@@ -1,3 +1,9 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body.lights-out {
   background: black;
   font-family: Helvetica, Arial, sans-serif;
@@ -28,22 +34,54 @@ header {
   width: 100%;
   background: white;
   top: 0;
-  height: 50px;
-  padding: 30px;
+  padding: 15px 30px;
   box-shadow: 0 2px 5px #333;
+  z-index: 2;
+}
+
+.logo {
+  float: right;
 }
 
 main {
-  padding-top: 110px;
+  padding-top: 74px;
 }
 
 section, footer {
   width: 100%;
   padding: 60px 0;
+  box-shadow: 0 2px 5px #333;
 }
 
 footer {
   text-align: center;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #555;
+  border-left: 1px solid #555;
+}
+
+tr:nth-child(even) {
+  background: white;
+}
+
+tr:nth-child(odd) {
+  background: #ccc;
+}
+
+td, th {
+  border-right: 1px solid #555;
+  border-bottom: 1px solid #555;
+  padding: 10px;
+}
+
+img.responsive-media, video {
+  border: 1px solid black;
+  box-shadow: 0 5px 10px #333;
 }
 
 .light-shade {
@@ -121,10 +159,10 @@ img {
 nav a {
   color: #333;
   text-decoration: none;
-  font-size: 1.25em;
+  font-size: 1em;
   display: inline-block;
   padding: 10px 0;
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 nav a.active {
@@ -139,4 +177,15 @@ a {
 
 a:hover {
   color: rgb(72, 141, 241);
+}
+
+h1, h2 {
+  margin: 30px 0;
+  -webkit-text-shadow: 0 2px 5px #fff;
+  -moz-text-shadow: 0 2px 5px #fff;
+  text-shadow: 0 2px 5px #fff;
+}
+
+p {
+  margin: 20px 0;
 }

@@ -149,6 +149,23 @@ img.responsive-media, video {
   height: auto;
 }
 
+.pdf-icon {
+  position: fixed;
+  z-index: 3;
+  top: 170px;
+  right: 35px;
+  width: 32px;
+  height: 32px;
+}
+
+.pdf-icon img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  box-shadow: none;
+}
+
 img {
   display: block;
   border: 1px solid #ccc;

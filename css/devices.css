@@ -4,6 +4,15 @@ video {
   height: auto;
 }
 
+@media only screen and (max-width: 1140px) {
+  .pdf-icon {
+    top: 21px;
+    right: 159px;
+    width: 23px;
+    height: 23px;
+  }
+}
+
 @media only screen and (max-width: 980px) {
   .wrap {
     width: 90%;

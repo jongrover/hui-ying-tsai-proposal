@@ -10,6 +10,11 @@ body.lights-out {
   color: #555;
 }
 
+body.lights-out video {
+  border: none;
+  box-shadow: none;
+}
+
 .theatre-pad {
   padding: 0 16%;
 }
